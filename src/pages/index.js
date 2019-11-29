@@ -28,6 +28,11 @@ class IndexPage extends React.Component {
           default starter blog running on Netlify CMS.
         </p>
         <p>Now go build something great!</p>
+        <form netlify>
+          <input type="email" placeholder="email"/>
+          <input type="number" placeholder="mobile"/>
+          <button type="button">submit</button>
+        </form>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
         </Link>
